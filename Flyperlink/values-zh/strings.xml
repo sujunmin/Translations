@@ -119,7 +119,7 @@
     <string name="settings_engine_customtabs_reopen">重開</string>
     <string name="settings_engine_customtabs_reopen_description">當 Custom Tabs 被關掉時，將會再次開啟網頁泡泡。</string>
     <string name="settings_engine_customtabs_required">需要 Custom Tabs</string>
-    <string name="settings_engine_customtabs_required_description">至少需安裝一個支持 Custom Tabs的瀏覽器</string>
+    <string name="settings_engine_customtabs_required_description">至少需安裝一個支持 Custom Tabs 的瀏覽器</string>
     <string name="settings_engine_customtabs_required_install">安裝</string>
     <string name="settings_engine_webview">WebView</string>
     <string name="settings_engine_webview_description">讓 Flyperlink 嘗試使用 WebView</string>
