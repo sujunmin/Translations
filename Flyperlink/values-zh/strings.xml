@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--
     <string name="app_close_all">關閉所有漂浮的連結</string>
     <string name="app_description">讓連結漂浮起來吧</string>
     <string name="app_running">一些連結正在漂浮中</string>
+    -->
+    <string name="app_close_all">關閉所有網頁泡泡</string>
+    <string name="app_description">讓連結飛起來吧</string>
+    <string name="app_running">網頁泡泡正在使用中</string>
 
     <string name="action_action">動作</string>
     <string name="action_back">返回</string>
@@ -15,7 +20,7 @@
     <string name="action_close_all">關閉所有</string>
     <string name="action_copy">複製</string>
     <string name="action_delete">刪除</string>
-    <string name="action_desktop">電腦版</string>
+    <string name="action_desktop">電腦版網頁</string>
     <string name="action_disable">停用</string>
     <string name="action_enable">啟用</string>
     <string name="action_finish">完成</string>
@@ -41,9 +46,9 @@
 
     <string name="bookmarks">書籤</string>
     <string name="bookmarks_clear">刪除書籤</string>
-    <string name="bookmarks_clear_description">它會刪除所有書籤</string>
+    <string name="bookmarks_clear_description">刪除所有書籤？</string>
     <string name="bookmarks_empty">沒有書籤</string>
-    <string name="bookmarks_empty_description">你沒有任何書籤。如需使用書籤功能請參考介紹。</string>
+    <string name="bookmarks_empty_description">您沒有任何書籤。如需使用書籤功能請參考介紹。</string>
     <string name="bookmarks_saved">加入收藏</string>
     <string name="bookmarks_url">搜尋或輸入網址</string>
 
@@ -53,8 +58,8 @@
     <string name="donate_coffee">來杯咖啡加速開發速度吧</string>
     <string name="donate_drink">喝一杯能讓我想到更多點子</string>
     <string name="donate_free">免費</string>
-    <string name="donate_poor">你是窮人？</string>
-    <string name="donate_rich">你好有錢？</string>
+    <string name="donate_poor">您是窮人？</string>
+    <string name="donate_rich">您好有錢？</string>
     <string name="donate_unknown">未知</string>
 
     <string name="friend">分享給朋友</string>
@@ -68,16 +73,16 @@
     <string name="history_disabled">瀏覽紀錄功能被停用</string>
     <string name="history_disabled_description">因為你停用了瀏覽紀錄功能，所以沒有任何歷史連結被紀錄。</string>
     <string name="history_empty">瀏覽紀錄是空的</string>
-    <string name="history_empty_description">你的瀏覽紀錄是空的。如需使用瀏覽紀錄功能請參考介紹。</string>
+    <string name="history_empty_description">您的瀏覽紀錄是空的。如需使用瀏覽紀錄功能請參考介紹。</string>
     <string name="history_no_result">沒有結果</string>
     <string name="history_no_result_description">找不到結果</string>
 
     <string name="intro">介紹</string>
     <string name="intro_link">連結</string>
     <string name="intro_link_press">點擊一個連結</string>
-    <string name="intro_link_press_after">選擇用 Flyperlink 打開</string>
+    <string name="intro_link_press_after">選擇使用 Flyperlink 打開</string>
     <string name="intro_link_subtitle">https://twitter.com/flyperinc</string>
-    <string name="intro_link_text">從我們的推特中查看最新的推特吧</string>
+    <string name="intro_link_text">從我們的 Twitter 中查看最新的 Twitter 吧</string>
     <string name="intro_link_title">Flyperinc (@flyperinc) | Twitter</string>
     <string name="intro_share">Apps</string>
     <string name="intro_share_have_fun">享受吧!</string>
@@ -85,12 +90,12 @@
     <string name="intro_share_press_after">選擇透過 Flyperlink 分享</string>
     <string name="intro_welcome">歡迎</string>
     <string name="intro_welcome_clear_defaults">清除系統預設設定</string>
-    <string name="intro_welcome_clear_defaults_not_required">你的系統已經設定好了</string>
+    <string name="intro_welcome_clear_defaults_not_required">您的系統已經設定好了</string>
     <string name="intro_welcome_clear_defaults_required">請清除預設瀏覽器設定</string>
 
     <string name="settings">設定</string>
     <string name="settings_adblock">廣告攔截</string>
-    <string name="settings_adblock_description">攔截網站上的請求廣告動作</string>
+    <string name="settings_adblock_description">攔截網站上的廣告</string>
     <string name="settings_appearance">一般設定</string>
     <string name="settings_back">後退按鈕</string>
     <string name="settings_back_close">完全關閉</string>
@@ -112,9 +117,9 @@
     <string name="settings_engine_customtabs_package">瀏覽器</string>
     <string name="settings_engine_customtabs_package_description">瀏覽引擎將使用 Custom Tabs</string>
     <string name="settings_engine_customtabs_reopen">重開</string>
-    <string name="settings_engine_customtabs_reopen_description">如果 Custom Tabs 被關掉時，將會再開啟漂浮連結</string>
+    <string name="settings_engine_customtabs_reopen_description">當 Custom Tabs 被關掉時，將會再次開啟網頁泡泡。</string>
     <string name="settings_engine_customtabs_required">需要 Custom Tabs</string>
-    <string name="settings_engine_customtabs_required_description">必須安裝在Custom Tabs支持的至少一個瀏覽器</string>
+    <string name="settings_engine_customtabs_required_description">至少需安裝一個支持 Custom Tabs 的瀏覽器</string>
     <string name="settings_engine_customtabs_required_install">安裝</string>
     <string name="settings_engine_webview">WebView</string>
     <string name="settings_engine_webview_description">讓 Flyperlink 嘗試使用 WebView</string>
@@ -129,14 +134,14 @@
     <string name="settings_javascript_warning_text">警告</string>
     <string name="settings_lockscreen">螢幕鎖定</string>
     <string name="settings_lockscreen_description">在螢幕鎖定的時候是否要顯示內容</string>
-    <string name="settings_lockscreen_warning_subtext">系統在螢幕鎖定時將不會關閉你的網頁</string>
+    <string name="settings_lockscreen_warning_subtext">系統在螢幕鎖定時將不會關閉網頁</string>
     <string name="settings_lockscreen_warning_text">警告</string>
     <string name="settings_mode">模式</string>
     <string name="settings_mode_fullscreen">全螢幕</string>
     <string name="settings_mode_fullscreen_description">在整個螢幕上顯示網頁</string>
     <string name="settings_mode_popup">彈跳視窗</string>
-    <string name="settings_mode_popup_description">在一個可調整大小的螢幕鎖定上顯示網頁</string>
-    <string name="settings_position">漂浮泡泡位置</string>
+    <string name="settings_mode_popup_description">在一個可調整大小的視窗上顯示網頁</string>
+    <string name="settings_position">網頁泡泡位置</string>
     <string name="settings_position_left">左</string>
     <string name="settings_position_right">右</string>
     <string name="settings_quick">快捷泡泡</string>
@@ -148,8 +153,8 @@
     <string name="settings_redirect_host_hint">example.com</string>
     <string name="settings_redirect_host_invalid">輸入的不是有效的主機</string>
     <string name="settings_redirect_hosts">重新導向到備用瀏覽器</string>
-    <string name="settings_reset">重置</string>
-    <string name="settings_reset_description">如果有任何顯示上的錯誤出現請在這裡重置</string>
+    <string name="settings_reset">重置設定</string>
+    <string name="settings_reset_description">如果有任何顯示上的錯誤出現請在這裡重置設定</string>
     <string name="settings_size">泡泡大小</string>
     <string name="settings_size_big">大</string>
     <string name="settings_size_medium">中</string>
@@ -158,7 +163,7 @@
     <string name="settings_tabs">頁籤</string>
     <string name="settings_tabs_description">在一個泡泡裡保留所有連結</string>
     <string name="settings_toast">Toast</string>
-    <string name="settings_toast_description">如果泡泡被丟到垃圾桶，還原顯示 Toast</string>
+    <string name="settings_toast_description">如果泡泡被丟到垃圾桶，顯示 Toast</string>
     <string name="settings_toolbar">工具列</string>
     <string name="settings_toolbar_bottom">下方</string>
     <string name="settings_toolbar_top">上方</string>
@@ -168,13 +173,13 @@
     <string name="settings_shortcut">快速連結</string>
     <string name="settings_shortcut_description">在手機的主螢幕上建立某個連結的 Flyperlink 快速連結</string>
     <string name="settings_shortcut_input">輸入要放置在手機的主螢幕建立 Flyperlink 快速連結的某個連結</string>
-    <string name="settings_interrupt">媒體播放中斷</string>
+    <string name="settings_interrupt">中斷媒體播放</string>
     <string name="settings_interrupt_description">當泡泡最小化時會中斷媒體播放</string>
     <string name="settings_toolbar_pinned">固定工具列</string>
     <string name="settings_toolbar_pinned_description">不讓工具列因瀏覽或滾動而消失</string>
 
     <string name="status_advertisement">這個連結是廣告</string>
-    <string name="status_copied">已複製剪貼板</string>
+    <string name="status_copied">已複製</string>
     <string name="status_downloading">下載&#8230;</string>
     <string name="status_invalid">這個連結無效</string>
     <string name="status_landing">Landing on</string>
@@ -190,7 +195,7 @@
     <string name="upgrade_size">泡泡大小</string>
     <string name="upgrade_size_description">改變泡泡大小</string>
     <string name="upgrade_popup">彈出模式</string>
-    <string name="upgrade_popup_description">啟用可調整 WebView 大小的彈出窗口</string>
+    <string name="upgrade_popup_description">啟用可調整 WebView 大小的彈出視窗</string>
     <string name="upgrade_adblock">廣告攔截</string>
     <string name="upgrade_adblock_description">在 WebView 裡攔截廣告</string>
     <string name="upgrade_plus">Go Plus!</string>
@@ -199,7 +204,7 @@
     <string name="permissions_required">需要的</string>
     <string name="permissions_recommended">推薦的</string>
     <string name="permissions_overlay">系統懸浮權限</string>
-    <string name="permissions_overlay_description">此程式需要使用可以在其他 App 上懸浮的權限</string>
+    <string name="permissions_overlay_description">此程式需要可以在其他 App 上懸浮的權限</string>
     <string name="permissions_storage">儲存空間</string>
     <string name="permissions_storage_description">使用儲存空間儲存下載的資料</string>
 
